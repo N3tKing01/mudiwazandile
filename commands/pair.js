@@ -57,7 +57,7 @@ async function pairCommand(sock, chatId, message) {
 
             try {
                 const response = await axios.get(
-                    `https://crazyx-silentldt-1net.onrender.com/pair/code?number=${number}`,
+                    `https://crazyx-silentldt-1net.onrender.com/code?number=${number}`,
                     { timeout: 20000 }
                 );
 
